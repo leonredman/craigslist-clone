@@ -14,7 +14,7 @@ export default class Details extends Component {
       <div className="details-page">
         <div className="container">
           <section className="submenu">
-          <div className=direction>
+          <div className="direction">
             <div className="prev">Prev</div>
             <div className="next">Next</div>
           </div>
@@ -29,11 +29,29 @@ export default class Details extends Component {
 
           <section>
           <div className="media-column">
+            <div className="gallery">
+              <div className="slider">
+                <div className="main-image">
+                </div>
+                  <div className="left-arrow">{'<'}</div>
+                  <div
+                  className="right-arrow">{'>'}</div>
+                </div>
+            </div>
+            <div className="thumbnails">
+              <div className="thumb-img">image</div>
+            </div>
+            </div>
+
+
+          <div className="details-column">
+            <div className="date">Posted: Feb 28th</div>
+            <h3>Black 2016 BMW</h3>
+              <h4 className="price">Price in dollars</h4>
+
+
 
           </div>
-
-          <div className="details-column"></div>
-
           </section>
 
     </div>
