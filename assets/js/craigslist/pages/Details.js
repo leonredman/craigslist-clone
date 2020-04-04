@@ -48,10 +48,21 @@ export default class Details extends Component {
             <div className="date">Posted: Feb 28th</div>
             <h3>Black 2016 BMW</h3>
               <h4 className="price">Price in dollars</h4>
-
-
-
-          </div>
+              <div className="more-details">
+                <div className="info">
+                  <label>Vin</label>
+                  <h5>xy4ajkdfjkadfjkhad</h5>
+                </div>
+                <div className="info">
+                  <label>transmission</label>
+                  <h5>Manual</h5>
+                </div>
+                <div className="info">
+                  <label>transmission</label>
+                  <h5>Manual</h5>
+                </div>
+              </div>
+            </div>
           </section>
 
     </div>
