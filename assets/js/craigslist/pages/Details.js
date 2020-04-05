@@ -62,10 +62,16 @@ export default class Details extends Component {
                   <h5>Manual</h5>
                 </div>
               </div>
+               <div className="description">
+                <p> this is where the description
+                    goes
+                </p>
+
+
+               </div>
             </div>
           </section>
-
-    </div>
+        </div>
     </div>
   )}
 }
