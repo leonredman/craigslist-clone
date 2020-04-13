@@ -440,6 +440,61 @@ var Details = function (_Component) {
                 'h4',
                 { className: 'price' },
                 'Price in dollars'
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'more-details' },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'info' },
+                  _react2.default.createElement(
+                    'label',
+                    null,
+                    'Vin'
+                  ),
+                  _react2.default.createElement(
+                    'h5',
+                    null,
+                    'xy4ajkdfjkadfjkhad'
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'info' },
+                  _react2.default.createElement(
+                    'label',
+                    null,
+                    'transmission'
+                  ),
+                  _react2.default.createElement(
+                    'h5',
+                    null,
+                    'Manual'
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'info' },
+                  _react2.default.createElement(
+                    'label',
+                    null,
+                    'transmission'
+                  ),
+                  _react2.default.createElement(
+                    'h5',
+                    null,
+                    'Manual'
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'description' },
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  ' this is where the description goes'
+                )
               )
             )
           )
